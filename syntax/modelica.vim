@@ -125,4 +125,8 @@ syn region modelicaComment start=/\/\*/ end=/\*\//
 
 let b:current_syntax = "modelica"
 
-" vim: ts=8
+" enforce tab settings
+set tabstop=2                     " tab character amount
+set expandtab                     " tabs as space
+set smartindent                   " smart autoindenting on a new line
+set shiftwidth=2                  " set spaces for autoindent

@@ -11,10 +11,10 @@ Then add
 Plugin 'drmingdrmer/xptemplate'
 Plugin 'Twinside/vim-modelica'
 ```
-to the .vimrc . And type :PluginInstall in the ex command line of the vim.
+to the `.vimrc` . And type `:PluginInstall` in the ex command line of the vim.
 
 ## Usage
-You can type the following short hands with `shorthand``<ctrl+\>`. 
+You can type the following shorthands with `shorthand<ctrl+\>`. 
 
 For example `block<ctrl+\>` yields:
 ```
@@ -22,8 +22,23 @@ block `blockName^
     `cursor^
 end `blockName^;
 ```
-
 You may use `<tab>` to navigate through the elements (`blockName`, `cursor`).
+
+Available shorthands include:
+* `model`
+* `class`
+* `connector`
+* `record`
+* `typer`
+* `while`
+* `if`
+* `block`
+* `package`
+* `forin`
+* `enum`
+* `function`
 
 ## About
 Requires [drmingdrmer/xptemplate](https://github.com/drmingdrmer/xptemplate) to work.
+
+
